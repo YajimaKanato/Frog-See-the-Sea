@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6243367d26b00ad4ca60e72bdd8c0b74, type: 3}
+  m_Name: FrogJumpSettings
+  m_EditorClassIdentifier: Assembly-CSharp::FrogSea.JumpSettings
+  circumference: 32
+  gravity: 24
+  minJumpSpeed: 5
+  maxJumpSpeed: 14
+  airDrag: 0.12
+  fullDrag: 0.24
+  deadZone: 0.025
+  wallHoldSeconds: 2.2
+  wallJumpMultiplier: 1.08
+  minimumWallPush: 4.5
